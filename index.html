@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css"/>
+    <script src="app.js"></script>
+    <title>Tres en raya</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td id="casilla1"> </td>
+        <td id="casilla2"> </td>
+        <td id="casilla3"> </td>
+      </tr>
+      <tr>
+        <td id="casilla4"> </td>
+        <td id="casilla5"> </td>
+        <td id="casilla6"> </td>
+      </tr>
+      <tr>
+        <td id="casilla7"> </td>
+        <td id="casilla8"> </td>
+        <td id="casilla9"> </td>
+      </tr>
+    </table>
+    <p id="modo">Seleccionar modo</p>
+    <button onclick="modoFacil()">Modo fácil</button>
+    <button onclick="modoDificil()">Modo Dark Souls</button><br><br>
+    Elige la casilla que vas a marcar: 
+    (primera fila -> 1,2,3 segunda fila -> 4,5,6 tercera fila -> 7,8,9)<br>
+    <input id="eleccion"/><button onclick="realizarJugada()">Marcar casilla</button>
+  </body>
+</html>
